@@ -1,0 +1,20 @@
+{
+  "name": "js-patterns",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "forest-shadow <mamasay@yandex.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.3"
+  }
+}
