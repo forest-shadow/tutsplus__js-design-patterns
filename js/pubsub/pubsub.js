@@ -22,6 +22,8 @@ define(function() {
                 subscribers[event] = [];
             }
 
+            // subscribers[event].push(callback);
+
             index = subscribers[event].push(callback) - 1;
 
             return {

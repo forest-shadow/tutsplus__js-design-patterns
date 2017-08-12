@@ -7,7 +7,7 @@ define(function (require) {
     subscription = pubSub.subscribe('atopic', function(data){
         console.log('atopic was published with data:', data);
 
-        subscription.dispose();
+        subscription.dispose(); // remove event cb after consoling message
     });
 
 });
